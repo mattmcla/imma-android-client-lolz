@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">IMMA CLIENT LOLZ2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Manage Games</string>
+    
+    <string name="title_activity_create_game">Create Game</string>
+
+    <string name="menu_add_game">Add Game</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_cancel">Cancel</string>
+	
+</resources>
