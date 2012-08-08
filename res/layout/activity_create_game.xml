@@ -1,14 +1,28 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/txtBxGameName"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world"
-        tools:context=".CreateGame" />
+        android:hint="@string/txtbx_game_name_hint" >
 
-</RelativeLayout>
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtBxToken"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtbx_game_token_hint" />
+    
+    <EditText
+        android:id="@+id/txtBxSecret"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtbx_game_secret_hint" />
+
+</LinearLayout>

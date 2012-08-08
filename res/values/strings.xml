@@ -5,6 +5,9 @@
     <string name="title_activity_main">Manage Games</string>
     
     <string name="title_activity_create_game">Create Game</string>
+    <string name="txtbx_game_name_hint">Game Name</string>
+    <string name="txtbx_game_token_hint">Token</string>
+    <string name="txtbx_game_secret_hint">Secret</string>
 
     <string name="menu_add_game">Add Game</string>
     <string name="menu_settings">Settings</string>
