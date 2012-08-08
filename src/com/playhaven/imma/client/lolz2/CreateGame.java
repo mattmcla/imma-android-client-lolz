@@ -25,7 +25,6 @@ public class CreateGame extends Activity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-        	case R.id.cancel_game:
             case android.R.id.home:
                 NavUtils.navigateUpFromSameTask(this);
                 return true;
