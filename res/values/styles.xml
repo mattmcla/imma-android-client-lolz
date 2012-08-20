@@ -2,7 +2,7 @@
 
     <style name="AppTheme" parent="android:Theme.Holo.Light" />
     
-    <style name="NewGame_Layout" parent="android:Theme.Holo.Light"></style>
+    <style name="NewGame_Layout" parent="android:style/Theme.Holo.Light"></style>
     <style name="NewGameCustomActionButton" parent="android:style/Widget.Holo.Light.ActionButton" >
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_width">0dp</item>
