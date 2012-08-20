@@ -74,13 +74,16 @@ public class CreateGame extends Activity {
                 NavUtils.navigateUpFromSameTask(this);
                 return true;
             case R.id.action_save_game:
-            	saveGame();
+            	//saveGame();
             	return true;
         }
         return super.onOptionsItemSelected(item);
     }
     
-    public void saveGame() {
+    /**
+     * Saves a new token, secret and name that represents a game
+     */
+    public void saveGame(String token, String secret, String name) {
     	return;
     }
 
